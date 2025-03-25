@@ -36,7 +36,7 @@ The plugin also supports the following:
 | `ZSH_TMUX_AUTOSTART_ONCE`           | Autostart only if tmux hasn't been started previously (default: `true`)                                                        |
 | `ZSH_TMUX_AUTOCONNECT`              | Automatically connect to a previous session if it exits (default: `true`)                                                      |
 | `ZSH_TMUX_AUTOQUIT`                 | Automatically closes terminal once tmux exits (default: `ZSH_TMUX_AUTOSTART`)                                                  |
-| `ZSH_TMUX_CONFIG`                   | Set the configuration path (default: `$HOME/.tmux.conf`, `$XDG_CONFIG_HOME/tmux/tmux.conf`)                                    |
+| `ZSH_TMUX_CONFIG`                   | Set the configuration path (default: `$HOME/.tmux.conf`, `$XDG_CONFIG_HOME/tmux/tmux.conf`, `$HOME/.config/tmux/tmux.conf`)    |
 | `ZSH_TMUX_DEFAULT_SESSION_NAME`     | Set tmux default session name when autostart is enabled                                                                        |
 | `ZSH_TMUX_AUTONAME_SESSION`         | Automatically name new sessions based on the basename of `$PWD` (default: `false`)                                             |
 | `ZSH_TMUX_DETACHED`                 | Set the detached mode (default: `false`)                                                                                       |
